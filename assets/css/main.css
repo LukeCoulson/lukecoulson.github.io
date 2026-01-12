@@ -4166,6 +4166,18 @@ input, select, textarea {
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
+	}
+
+	.image.profile {
+		aspect-ratio: 1/1;
+		border-radius: 50%;
+		overflow: hidden;
+	}
+
+	.image.profile img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
 		object-position: center 55%;
 		transform: scale(1.6) translateX(-3%);
 	}
